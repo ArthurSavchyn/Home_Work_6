@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.inner {
+  font-size: 0;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.inner .cards {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 226px;
+  background: #e0e0e0;
+  margin: 15px;
+}
+
+.inner .cards img {
+  width: 130px;
+  height: 130px;
+  margin: 0 35px 10px 35px;
+}
+
+.inner .cards .title {
+  width: 200px;
+  height: 22px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 10px 0 10px 0;
+}
+
+.inner .cards .text {
+  width: 200px;
+  height: 36px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 0 18px 0;
+}
